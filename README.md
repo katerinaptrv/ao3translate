@@ -11,7 +11,7 @@ This tool is perfect for multilingual fans who wish to enjoy fanfiction in their
 - User-Friendly Interface: Easy-to-use interface for seamless translation requests.
 - Accurate Translations: Utilizes advanced natural language techonology with Google's LLM Gemini 1.5 Flash to ensure high-quality translations.
 
-- ## Installation
+## Installation
 
 1. **Clone the Repository:**
    ```bash
