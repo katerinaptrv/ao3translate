@@ -1,5 +1,5 @@
 # ao3translate
-AO3 Chapter Translator is a web application built with Flask that leverages the power of Google Gemini to enhance your reading experience on AO3 (Archive of Our Own) by providing translations of fanfiction chapters into your chosen language.  
+AO3 Translator is a web application built with Flask that leverages the power of Google Gemini to enhance your reading experience on AO3 (Archive of Our Own) by providing translations of fanfiction chapters into your chosen language.  
 
 Simply input the URL of a specific chapter from AO3, select the desired language, and the app will return the translated text.   
 
@@ -48,7 +48,7 @@ This tool is perfect for multilingual fans who wish to enjoy fanfiction in their
 
 1. **Enter AO3 URL:** Paste the URL of the AO3 fanfiction chapter you want to translate.
 2. **Select Target Language:** Choose the desired language for translation.
-3. **Click "Traduzir":** The application will fetch the chapter content, translate it using Google Gemini Pro, and display the translated text.
+3. **Click "Translate":** The application will fetch the chapter content, translate it using Google Gemini, and display the translated text.
 
 ## Contributing
 
