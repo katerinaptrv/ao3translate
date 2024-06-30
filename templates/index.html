@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO3 Random Fanfic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+		.input, select.input {
+			width: 100%;
+			height: auto;
+			padding: 10px;
+			margin-bottom: 10px;
+			font-size: 16px;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			box-sizing: border-box; /* Ensure padding is included in width calculation */
+		}
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AO3 Translate Fanfic</h1>
+        <form action="/translate" method="POST">
+            <div class="form-group">
+                <select name="languages" id="languages" class="custom-select input">
+                    <option>Arabic (ar)</option>
+                    <option>Bengali (bn)</option>
+                    <option>Bulgarian (bg)</option>
+                    <option>Chinese (Simplified and Traditional) (zh)</option>
+                    <option>Croatian (hr)</option>
+                    <option>Czech (cs)</option>
+                    <option>Danish (da)</option>
+                    <option>Dutch (nl)</option>
+                    <option selected>English (en)</option>
+                    <option>Estonian (et)</option>
+                    <option>Finnish (fi)</option>
+                    <option>French (fr)</option>
+                    <option>German (de)</option>
+                    <option>Greek (el)</option>
+                    <option>Hebrew (iw)</option>
+                    <option>Hindi (hi)</option>
+                    <option>Hungarian (hu)</option>
+                    <option>Indonesian (id)</option>
+                    <option>Italian (it)</option>
+                    <option>Japanese (ja)</option>
+                    <option>Korean (ko)</option>
+                    <option>Latvian (lv)</option>
+                    <option>Lithuanian (lt)</option>
+                    <option>Norwegian (no)</option>
+                    <option>Polish (pl)</option>
+                    <option>Portuguese (pt)</option>
+                    <option>Romanian (ro)</option>
+                    <option>Russian (ru)</option>
+                    <option>Serbian (sr)</option>
+                    <option>Slovak (sk)</option>
+                    <option>Slovenian (sl)</option>
+                    <option>Spanish (es)</option>
+                    <option>Swahili (sw)</option>
+                    <option>Swedish (sv)</option>
+                    <option>Thai (th)</option>
+                    <option>Turkish (tr)</option>
+                    <option>Ukrainian (uk)</option>
+                    <option>Vietnamese (vi)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="url" name="url" placeholder="Enter AO3 work URL" class="form-control input" />
+            </div>
+            <button class="btn btn-success" type="submit">Traduzir</button>
+        </form>
+    </div>
+</body>
+</html>
